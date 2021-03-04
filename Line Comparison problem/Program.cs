@@ -6,17 +6,13 @@ namespace Line_Comparison_problem
     {
         static void Main(string[] args)
         {
-			int x1 = 1, y1 = 0, x2 = 5, y2 = 0, z1, z2, a;
-			int x3 = 0, y3 = 2, x4 = 0, y4 = 6, z3, z4, b;
-			z1 = x2 - x1;
-			z2 = y2 - y1;
-			z3 = x4 - x3;
-			z4 = y4 - y3;
-			a = ((z1 * z1) + (z2 * z2));
-			b = ((z3 * z3) + (z4 * z4));
-			Console.WriteLine("The length of the first line:" + Math.Sqrt(a));
-			Console.WriteLine("The length of the second line:" + Math.Sqrt(b));
-			if (a == b)
+			int x1 = 1, y1 = 0, x2 = 5, y2 = 0;
+			int x3 = 0, y3 = 2, x4 = 0, y4 = 6;
+			double len1 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+			double len2 = Math.Sqrt(Math.Pow(x4 - x3, 2) + Math.Pow(y4 - y3, 2));
+			Console.WriteLine("The length of the first line:" + len1);
+			Console.WriteLine("The length of the second line:" + len2);
+			if (len1 == len2)
 			{
 				Console.WriteLine("lines are equal");
 			}
