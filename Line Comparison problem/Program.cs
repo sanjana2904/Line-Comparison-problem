@@ -8,6 +8,11 @@ namespace Line_Comparison_problem
         {
 			int x1 = 1, y1 = 0, x2 = 5, y2 = 0;
 
+			
+            double len = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+			Console.WriteLine("length is:" + len);
+
+
 			int x3 = 0, y3 = 2, x4 = 0, y4 = 6;
 			double len1 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 			double len2 = Math.Sqrt(Math.Pow(x4 - x3, 2) + Math.Pow(y4 - y3, 2));
@@ -30,6 +35,7 @@ namespace Line_Comparison_problem
 			{
 				Console.WriteLine("less");
 			}
+
 
 		}
 	}
