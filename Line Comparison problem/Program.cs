@@ -17,9 +17,14 @@ namespace Line_Comparison_problem
 			{
 				Console.WriteLine("lines are equal");
 			}
+			else if (len1 > len2)
+			{
+				Console.WriteLine("first line is greater");
+			}
 			else
-      {
-				Console.WriteLine("lines are not equal");
+			{
+				Console.WriteLine("first line is lesser");
+
 			}
 		}
 	}
