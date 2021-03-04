@@ -24,8 +24,8 @@ namespace Line_Comparison_problem
 			else
 			{
 				Console.WriteLine("first line is lesser");
-			}
 
+			}
 		}
 	}
 
