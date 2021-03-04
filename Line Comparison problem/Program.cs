@@ -18,7 +18,7 @@ namespace Line_Comparison_problem
 				Console.WriteLine("lines are equal");
 			}
 			else
-            {
+      {
 				Console.WriteLine("lines are not equal");
 			}
 		}
