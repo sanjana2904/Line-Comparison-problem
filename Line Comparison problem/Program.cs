@@ -19,11 +19,11 @@ namespace Line_Comparison_problem
 			}
 			else if (len1 > len2)
 			{
-				Console.WriteLine("greater");
+				Console.WriteLine("first line is greater");
 			}
 			else
 			{
-				Console.WriteLine("less");
+				Console.WriteLine("first line is lesser");
 			}
 
 		}
